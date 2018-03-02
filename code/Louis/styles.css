@@ -1,0 +1,134 @@
+body{
+	margin: 0;
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.weather { 
+	background-color:white;
+	display: none;
+	margin: 1em;
+	width: 100px;
+	text-align: center;
+	border-radius: 6px;
+	border: 2px solid white;
+}
+
+.weather_date {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	background-color: #333333;
+	color: white;
+	height: 1.2em;
+	padding: 0.4em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+}
+
+.weather_temp {
+	display: table;
+	width:100%;
+	height: 1.2em;
+	border-bottom:
+	2px solid #333333;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	color: #333333
+}
+
+.weather_temp_min {
+	display: table-cell;
+	background-color: #efe;
+	width: 50%;
+	padding: 0.1em;
+}
+
+.weather_temp_max {
+	display: table-cell;
+	background-color: #fee;
+	width: 50%;
+	padding: 0.1em;
+}
+
+.weather_text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 80%;
+	color: #333333;
+	padding: 0.5em;
+}
+
+#divcontainer{
+	background-color: #333333;
+	width: 680px;
+	height: 195px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border: 2px solid #333333;
+}
+
+#wellingtonDiv,#christchurchDiv,#napierDiv,#aucklandDiv{
+	width: 680px;
+	background-color: #333333;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+#map{
+	width: 680px;
+	height: 400px;
+	background-color: red;
+	border: 2px solid #333333;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+#content{
+	width: 680px;
+	margin:  0 auto;
+}
+
+#weatherh3{
+	margin: 0;
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-weight: 200;
+}
+
+#borderblack{
+	padding: 25px;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 605px;
+	width: 880px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+#navbar{
+	height: 65px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+#footer{
+	margin-top: 20px;
+	height: 85px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+#navbar a{
+	display: inline-block;
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-weight: 300;
+	text-decoration: none;
+	padding: 25px;
+}
+
+#navbar img{
+	height: 80%;
+	padding: 10px;
+}

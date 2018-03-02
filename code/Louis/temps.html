@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Weather Example</title>
+		<script src="https://code.jquery.com/jquery-2.2.3.min.js"
+			integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" 
+			crossorigin="anonymous">
+		</script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div id="navbar">
+			<img src="logo.svg">
+			<a href="../index.html">Home</a>
+			<a href="../index.html">Hotspots</a>
+			<a href="../index.html">Lewis Thing</a>
+		</div>
+	<div id="borderblack">
+		<div id="content">
+			<div id="map"></div>
+			<div id="divcontainer">
+				<h3 id="weatherh3">Click on a map marker to get weather information</h3>
+				<div id="wellingtonDiv"></div>
+				<div id="aucklandDiv"></div>
+				<div id="napierDiv"></div>
+				<div id="christchurchDiv"></div>
+			</div>
+		</div>
+	</div>
+	<div id="footer"></div>
+		
+		<!-- TEMPLATE -->
+		<div id="weather" class="weather">
+			<div class="weather_date">DATE</div>
+			<div class="weather_temp">
+				<div class="weather_temp_min">MIN</div>
+				<div class="weather_temp_max">MAX</div>
+			</div>
+			<img class="weather_icon">
+			<div class="weather_text"></div>
+		</div>
+		<!-- END OF TEMPLATE -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA4kl27VvL6-JOiWyhXaPWAJGOlpuzTpg" type="text/javascript"></script>
+		<script src="scripts.js"></script>
+	</body>
+</html>
